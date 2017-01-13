@@ -17,8 +17,8 @@
 
 add_action( 'caldera_forms_get_field_types', function ( $fields ) {
 	$fields[ 'stepped_number' ] = array(
-		"field"       => __( 'Number field with step control' ),
-		"description" => __( 'Good for money inputs' ),
+		"field"       => __( 'Number Field (For 1.4.x)' ),
+		"description" => __( 'Good for currency input. (Not needed for version 1.5 or later)' ),
 		"file"        => __DIR__ . "/field.php",
 		"category"    => __( 'Basic', 'caldera-forms' ),
 		"setup"       => array(
